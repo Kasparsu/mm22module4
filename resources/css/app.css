@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://www.nerdfonts.com/assets/css/webfont.css");
+@font-face {
+    font-family: 'Kenyan Coffee';
+    src: url('/public/KenyanCoffee-Regular.woff2') format('woff2'),
+        url('/public/KenyanCoffee-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Komikazoom';
+    src: url('/public/Komikazoom.woff2') format('woff2'),
+        url('/public/Komikazoom.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
